@@ -1,12 +1,22 @@
 *{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-h1{
+hr {
+    border: 2px green;
+    width: 600px;
+}
+h1 {
     text-align: center;
 }
-h4{
+h4 { 
     text-decoration: underline;
+}
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+form {
+    margin-left: 25px;
 }
 #Top {
     width: 900px;
@@ -19,4 +29,32 @@ h4{
     border: 2px red;
     padding: 0 3px;
     height: 400px;
+}
+#ContactMe {
+    width: 50%;
+    float: right;
+    border: 2px red;
+}
+.image {
+    margin: auto;
+    width: fit-content;
+}
+label {
+    display: block; 
+    margin-left: 40px;
+}
+input, textarea{
+    widows: 80%;
+    margin-bottom: 20px;
+}
+textarea{
+    height: 100px;
+}
+button {
+    margin: auto;
+    width: fit-content;
+    display: block;
+}
+.centered{
+    text-align: center;
 }
