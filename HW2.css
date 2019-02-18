@@ -1,0 +1,22 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+h1{
+    text-align: center;
+}
+h4{
+    text-decoration: underline;
+}
+#Top {
+    width: 900px;
+    margin: auto;
+}
+#AboutMe {
+    width: 50%;
+    float: left;
+    min-width: 300px;
+    border: 2px red;
+    padding: 0 3px;
+    height: 400px;
+}
