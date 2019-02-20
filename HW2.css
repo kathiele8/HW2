@@ -57,7 +57,7 @@ textarea{
 }
 button{
     margin: auto;
-    width: fit-content;
+    width: 50%; 
     display: block;
 }
 .centered{
